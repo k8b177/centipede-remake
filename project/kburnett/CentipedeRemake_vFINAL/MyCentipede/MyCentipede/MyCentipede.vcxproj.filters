@@ -1,0 +1,1136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game Components">
+      <UniqueIdentifier>{274521c8-1d5a-46b2-9e48-ca86d610d2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL">
+      <UniqueIdentifier>{381e70dc-8908-40b2-8bd5-c82f2da9ecde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_ TEAL Resources">
+      <UniqueIdentifier>{74cb38bc-e5a5-473b-9c38-1562da913636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Asset Management">
+      <UniqueIdentifier>{c78fb845-6d67-4dc6-8a1e-75199f5d0435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Collision Management">
+      <UniqueIdentifier>{25152d78-3b70-4568-8f3f-c86df9c7838f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Collision Management\CollisionInfo">
+      <UniqueIdentifier>{643b812d-f8e4-4933-ba38-c2625f72d0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Game and Scene Management">
+      <UniqueIdentifier>{407b3ec4-f684-476b-bf40-247b968bfcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Time Management">
+      <UniqueIdentifier>{3183889c-b81e-4a6c-9aed-c985bab02295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Tools and Visualizers">
+      <UniqueIdentifier>{fe2cc02b-e700-49c7-a53c-0c2e40f68d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\User Base Classes">
+      <UniqueIdentifier>{409825d2-ebc2-4122-98c2-52be09427ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_TEAL\Window and Event Management">
+      <UniqueIdentifier>{b170d022-c058-4e94-b847-9689da64a5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\MemTracker">
+      <UniqueIdentifier>{6aa26312-0dc7-4e0b-a57b-10643a0ba7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\_ TEAL StartEnd">
+      <UniqueIdentifier>{b418356e-6a6a-44bf-8d1e-4984e9f4c008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Scenes">
+      <UniqueIdentifier>{cadb5550-f5a9-450e-b135-fc9960b538d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers">
+      <UniqueIdentifier>{542ea2cf-2f90-4f77-ab17-3eb5cb56ed16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Mushrooms">
+      <UniqueIdentifier>{ab88555c-e003-4efd-a2a9-3417d4d302ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Mushrooms\MushroomFactory &amp; ObjectPool">
+      <UniqueIdentifier>{223f4a9f-fdbf-4bfe-9dae-e25c907151c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\InformationalHeaders">
+      <UniqueIdentifier>{76e1b083-6311-437a-9757-5dd81147c4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\InformationalHeaders\Enums">
+      <UniqueIdentifier>{bbcf61e3-8593-4a8c-85b3-bd86d1f5650d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Player">
+      <UniqueIdentifier>{d668916d-290b-4654-bdd2-6e8418a79bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\ScoreManager">
+      <UniqueIdentifier>{22c86be7-fcec-48c6-bc08-0e95caa7151e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\GameManager">
+      <UniqueIdentifier>{9634cd57-44d7-4b45-971d-973ff1a4a314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\PlayerManager">
+      <UniqueIdentifier>{bf3639fe-91f5-4172-8a2d-6479857d97d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\WaveManager">
+      <UniqueIdentifier>{1ef3b3c1-f375-46bf-9221-15c9ab3d434f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Scenes\AttractorScene">
+      <UniqueIdentifier>{a40b88fd-70e8-4ee9-a2f7-6165c494319f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Player\PlayerController">
+      <UniqueIdentifier>{10e3e24b-389c-40d1-a309-e461070ee6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\GridManager">
+      <UniqueIdentifier>{3c11bb56-00ba-4ef7-b5b9-95236e7d357b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\GameEntityManager">
+      <UniqueIdentifier>{b4c9ff08-969e-4f8a-bbd4-b6dd075f94cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\GameManager\GameModes">
+      <UniqueIdentifier>{8a530f2c-99d3-44b3-9e93-1dc8e4e7d13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet">
+      <UniqueIdentifier>{9a0690f9-747b-4c56-8038-911c4bea35c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet\Blaster">
+      <UniqueIdentifier>{bdaf346e-56fb-4454-a39d-04e8ec389d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet\Bullet">
+      <UniqueIdentifier>{49faa45e-5656-429e-a189-bafbc7c63400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet\Bullet\BulletFactory">
+      <UniqueIdentifier>{4df27986-6c48-45f9-bc93-e3fbf2c174ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterFactory">
+      <UniqueIdentifier>{9352fcd0-e4ec-433c-af75-af1ba3a9058a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterSpawner">
+      <UniqueIdentifier>{9f0dce8e-68b1-413b-83fc-cc9536634e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\HUDManager">
+      <UniqueIdentifier>{a2d4f432-cffc-4604-a824-e71a164d1bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\HUDManager\TextJustificationModes">
+      <UniqueIdentifier>{376ebb52-317c-44e8-9787-695f4e819a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters">
+      <UniqueIdentifier>{e823aa52-4726-4500-baf3-5dcb982d4a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Centipede">
+      <UniqueIdentifier>{3244e0d6-3f11-4e90-9d22-9acdb1ba0773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Centipede\CentipedeMovement">
+      <UniqueIdentifier>{2cf25ee9-b510-4d63-b6c7-2a79856aaf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates">
+      <UniqueIdentifier>{2b55fae5-e701-4e5b-b91b-2a8f09be0ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Flea">
+      <UniqueIdentifier>{8b4c5abe-9bfb-41d8-85cb-930d67947745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Scorpion">
+      <UniqueIdentifier>{2a02ad38-6883-4fba-83c8-ea6fa3ba1102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Spider">
+      <UniqueIdentifier>{fd809fd8-652b-467b-beb3-5d47d37b9f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\CritterMovementModes">
+      <UniqueIdentifier>{463913a5-868e-4986-b5c7-bf95fd15a0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners">
+      <UniqueIdentifier>{89165a86-7f69-4c96-8502-06746099fdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner">
+      <UniqueIdentifier>{2f3226aa-6801-4c21-9428-094aba354ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\FleaSpawner">
+      <UniqueIdentifier>{13aad4cf-ba26-492d-9b45-ebaa8b5a8f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\FleaSpawner\FleaSpawnCheckers">
+      <UniqueIdentifier>{2672a0ae-98c2-4205-aed1-26b4d0d31920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner">
+      <UniqueIdentifier>{e7d9889a-0d66-4439-b86d-b433602e7237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner\ScorpionSpawnCheckers">
+      <UniqueIdentifier>{523818d2-adb1-4380-bd59-edf44bdd43d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner">
+      <UniqueIdentifier>{7b2864d5-8891-4000-a2e9-f50f80d7c5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner\SpiderSpawnCheckers">
+      <UniqueIdentifier>{704db894-5d2b-4bfa-9588-2e17ef5408a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools">
+      <UniqueIdentifier>{3b1a1cb5-d5b5-4169-8a0b-638a3a884b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools">
+      <UniqueIdentifier>{a086d1e0-fda5-4972-9a75-4d69862f2683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\ScorpionFactory &amp; ObjectPool">
+      <UniqueIdentifier>{b22b7183-1375-4ee9-a278-2e862eb98ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\FleaFactory &amp; ObjectPool">
+      <UniqueIdentifier>{43626b5c-0caa-4262-bcd0-407c090b6047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\SpiderFactory &amp; ObjectPool">
+      <UniqueIdentifier>{8fb9d13c-1d64-4a05-9ad9-fe67f4e1c042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\ScoreManager\CmdScores">
+      <UniqueIdentifier>{edace836-8f9f-4411-a2fc-fe4b697676b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\ScoreManager\ProcessScoreModes">
+      <UniqueIdentifier>{b1484409-e7b4-4fd8-88ac-74bdeed34f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\HUDManager\PlayerHUDMode">
+      <UniqueIdentifier>{31459203-ea17-4111-966a-954a351278e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs">
+      <UniqueIdentifier>{f43fcd50-8f03-4323-b97e-db34f618f158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs">
+      <UniqueIdentifier>{fcad2557-3faf-466b-80e1-3d801e710560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\SoundManager">
+      <UniqueIdentifier>{3e7b6bf5-276f-4fd1-9181-e6f7054c7b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\SoundManager\SoundModes">
+      <UniqueIdentifier>{6a9f6783-d5e4-4442-92f1-00eb74afbfb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\SoundManager\CmdSounds">
+      <UniqueIdentifier>{057e6551-0c1e-4965-ad83-08b71dcefe34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Explosions">
+      <UniqueIdentifier>{9fd27316-7619-4076-9f69-2b9a3a45124f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools">
+      <UniqueIdentifier>{177af0c7-5bd7-456e-8089-e0f481a17710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\GameManager\StartGameChecker">
+      <UniqueIdentifier>{322e817d-28a1-4908-86f4-554478682cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner\HeadSpawnCheckers">
+      <UniqueIdentifier>{b86864e0-132a-40f4-ab4f-3c3f4f0bcf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Player\PlayerController\AIMovement">
+      <UniqueIdentifier>{204da7dc-cc50-4f7d-a6b7-d929edca2aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite">
+      <UniqueIdentifier>{b27bfe18-1bed-4e60-939d-11139bd39402}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game Components\TEAL\LoadAllResources.cpp">
+      <Filter>Source Files\Game Components\_ TEAL Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AnimatedSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\ResourceManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABB.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoShape.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionTools.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Game.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\SceneManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AlarmEventTimeline.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\AlarmManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\ConsoleMsg.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\TEALShow.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Tools.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameObject.cpp">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\Scene.cpp">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\InputEventManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\WindowManager.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABBfromShape.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\CollisionInfoAABBfromSprite.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameClock.cpp">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameEnd.cpp">
+      <Filter>Source Files\Game Components\_ TEAL StartEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\TEAL\GameStart.cpp">
+      <Filter>Source Files\Game Components\_ TEAL StartEnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Components\GameScene.cpp">
+      <Filter>Source Files\Game Components\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementCollection.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveFSM.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeftAndDownwards.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeftAndUpwards.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRightAndDownwards.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRightAndUpwards.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnDownSwitchToRight.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnUpSwitchToLeft.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnUpSwitchToRight.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveState.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnDownSwitchToLeft.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonFallLeft.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonFallRight.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeHead.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeBody.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeSegment.cpp">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeBodyFactory.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeBodyObjectPool.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeHeadFactory.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeHeadObjectPool.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomFactory.cpp">
+      <Filter>Source Files\Game Components\Mushrooms\MushroomFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomObjectPool.cpp">
+      <Filter>Source Files\Game Components\Mushrooms\MushroomFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorpionFactory.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\ScorpionFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorpionObjectPool.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\ScorpionFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Flea.cpp">
+      <Filter>Source Files\Game Components\Critters\Flea</Filter>
+    </ClCompile>
+    <ClCompile Include="Scorpion.cpp">
+      <Filter>Source Files\Game Components\Critters\Scorpion</Filter>
+    </ClCompile>
+    <ClCompile Include="FleaFactory.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\FleaFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="FleaObjectPool.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\FleaFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Source Files\Game Components\Critters\Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderFactory.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\SpiderFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderObjectPool.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\SpiderFactory &amp; ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="FleaSpawnCheck_Active.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner\FleaSpawnCheckers</Filter>
+    </ClCompile>
+    <ClCompile Include="CentipedeSpawner.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="FleaSpawner.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorpionSpawner.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderSpawner.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorpionSpawnCheck_Active.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner\ScorpionSpawnCheckers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderSpawnCheck_Active.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner\SpiderSpawnCheckers</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomRegen.cpp">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Game Components\Managers\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Source Files\Game Components\Managers\PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveManager.cpp">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveDataParser.cpp">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BlasterSpawner.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterSpawner</Filter>
+    </ClCompile>
+    <ClCompile Include="BlasterFactory.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="GridInfo.cpp">
+      <Filter>Source Files\Game Components\InformationalHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AttractorController.cpp">
+      <Filter>Source Files\Game Components\Scenes\AttractorScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MushroomFieldData.cpp">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardControllerMode.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="AIControllerMode.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveData.cpp">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GridManager.cpp">
+      <Filter>Source Files\Game Components\Managers\GridManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntityManager.cpp">
+      <Filter>Source Files\Game Components\Managers\GameEntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AttractorMode.cpp">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="OnePlayerMode.cpp">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPlayerMode.cpp">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFactory.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet\BulletFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Blaster.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletObjectPool.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet\BulletFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="BlasterObjectPool.cpp">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveMoveMode.cpp">
+      <Filter>Source Files\Game Components\Critters\CritterMovementModes</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDManager.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RightJustificationMode.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftJustificationMode.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterJustificationMode.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="AwesomeFont.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteString.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdScoreByDistance.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\CmdScores</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdScoreValue.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\CmdScores</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessScoreModeActive.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\ProcessScoreModes</Filter>
+    </ClCompile>
+    <ClCompile Include="P2HUDMode.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClCompile>
+    <ClCompile Include="P1HUDMode.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Glyph.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphFactory.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Game Components\Managers\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSoundOnce.cpp">
+      <Filter>Source Files\Game Components\Managers\SoundManager\CmdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSoundLoop.cpp">
+      <Filter>Source Files\Game Components\Managers\SoundManager\CmdSounds</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConstants.cpp">
+      <Filter>Source Files\Game Components\InformationalHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionOneCell.cpp">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="GlyphObjectPool.cpp">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionTwoCell.cpp">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionFactory.cpp">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionOneCellObjectPool.cpp">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionTwoCellObjectPool.cpp">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="FrozenControllerMode.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameCheckerOn.cpp">
+      <Filter>Source Files\Game Components\Managers\GameManager\StartGameChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundModeOn.cpp">
+      <Filter>Source Files\Game Components\Managers\SoundManager\SoundModes</Filter>
+    </ClCompile>
+    <ClCompile Include="HighscoreEntry.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadSpawnCheck_Active.cpp">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner\HeadSpawnCheckers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBlock.cpp">
+      <Filter>Source Files\Game Components\Managers\GridManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMoveDirectionDownLeft.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMoveDirectionDownRight.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMoveDirectionUpLeft.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="AIMoveDirectionUpRight.cpp">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderScoreSprite.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderScoreSpriteFactory.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderScoreSpriteObjectPool.cpp">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game Components\TEAL\AnimatedSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\ResourceManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Asset Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfo.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABB.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABBfromShape.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoAABBfromSprite.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionInfoShape.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management\CollisionInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionGrid.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionTools.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionGridBase.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CollisionManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Collision Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Game.h">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\SceneManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Game and Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\AlarmEventTimeline.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\AlarmManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\CommonElements.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\ConsoleMsg.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\doxygendata.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\TEALShow.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Tools.h">
+      <Filter>Source Files\Game Components\_TEAL\Tools and Visualizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GameObject.h">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\Scene.h">
+      <Filter>Source Files\Game Components\_TEAL\User Base Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GlobalDefinitions.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\WindowManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\InputEventManager.h">
+      <Filter>Source Files\Game Components\_TEAL\Window and Event Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\TEAL\GameClock.h">
+      <Filter>Source Files\Game Components\_TEAL\Time Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\MemTracker\Framework.h">
+      <Filter>Source Files\Game Components\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Components\GameScene.h">
+      <Filter>Source Files\Game Components\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementCollection.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRightAndUpwards.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRightAndDownwards.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeftAndDownwards.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveState.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeftAndUpwards.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnDownSwitchToRight.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnUpSwitchToLeft.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnUpSwitchToRight.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveFSM.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnDownSwitchToLeft.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonFallLeft.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonFallRight.h">
+      <Filter>Source Files\Game Components\Critters\Centipede\CentipedeMovement\MoveStates</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeHead.h">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeBody.h">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeSegment.h">
+      <Filter>Source Files\Game Components\Critters\Centipede</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeBodyFactory.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeBodyObjectPool.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeHeadFactory.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeHeadObjectPool.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\CentipedeFactories &amp; ObjectPools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomFactory.h">
+      <Filter>Source Files\Game Components\Mushrooms\MushroomFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomObjectPool.h">
+      <Filter>Source Files\Game Components\Mushrooms\MushroomFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionFactory.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\ScorpionFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionObjectPool.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\ScorpionFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Flea.h">
+      <Filter>Source Files\Game Components\Critters\Flea</Filter>
+    </ClInclude>
+    <ClInclude Include="Scorpion.h">
+      <Filter>Source Files\Game Components\Critters\Scorpion</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaFactory.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\FleaFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaObjectPool.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\FleaFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConstants.h">
+      <Filter>Source Files\Game Components\InformationalHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveStatusEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveDataTypeEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Source Files\Game Components\Critters\Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderFactory.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\SpiderFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderObjectPool.h">
+      <Filter>Source Files\Game Components\Critters\Critter Factories &amp; ObjectPools\SpiderFactory &amp; ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaSpawnCheck_Active.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner\FleaSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaSpawnCheck.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner\FleaSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="CentipedeSpawner.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaSpawner.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionSpawner.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderSpawner.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="FleaSpawnCheck_Inactive.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\FleaSpawner\FleaSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionSpawnCheck.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner\ScorpionSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionSpawnCheck_Active.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner\ScorpionSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorpionSpawnCheck_Inactive.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\ScorpionSpawner\ScorpionSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderSpawnCheck.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner\SpiderSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderSpawnCheck_Inactive.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner\SpiderSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderSpawnCheck_Active.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\SpiderSpawner\SpiderSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\Game Components\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreEventsEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomRegen.h">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\Game Components\Managers\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveManager.h">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveDataParser.h">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BlasterSpawner.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterSpawner</Filter>
+    </ClInclude>
+    <ClInclude Include="BlasterFactory.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="GridInfo.h">
+      <Filter>Source Files\Game Components\InformationalHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModeEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="AttractorController.h">
+      <Filter>Source Files\Game Components\Scenes\AttractorScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Source Files\Game Components\Managers\PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomFieldData.h">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClInclude>
+    <ClInclude Include="MushroomData.h">
+      <Filter>Source Files\Game Components\Mushrooms</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerMode.h">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardControllerMode.h">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="AIControllerMode.h">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveData.h">
+      <Filter>Source Files\Game Components\Managers\WaveManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GridManager.h">
+      <Filter>Source Files\Game Components\Managers\GridManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntityManager.h">
+      <Filter>Source Files\Game Components\Managers\GameEntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AttractorMode.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="OnePlayerMode.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoPlayerMode.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFactory.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet\BulletFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Blaster.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletObjectPool.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Bullet\BulletFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="BlasterObjectPool.h">
+      <Filter>Source Files\Game Components\Blaster &amp; Bullet\Blaster\BlasterFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozenMoveMode.h">
+      <Filter>Source Files\Game Components\Critters\CritterMovementModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Critter.h">
+      <Filter>Source Files\Game Components\Critters</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveMoveMode.h">
+      <Filter>Source Files\Game Components\Critters\CritterMovementModes</Filter>
+    </ClInclude>
+    <ClInclude Include="CritterMoveMode.h">
+      <Filter>Source Files\Game Components\Critters\CritterMovementModes</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDManager.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextJustificationEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="TextJustificationMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClInclude>
+    <ClInclude Include="RightJustificationMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftJustificationMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterJustificationMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\TextJustificationModes</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="AwesomeFont.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteString.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdScore.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\CmdScores</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdScoreByDistance.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\CmdScores</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdScoreValue.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\CmdScores</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessScoreMode.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\ProcessScoreModes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessScoreModeActive.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\ProcessScoreModes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessScoreModeInactive.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\ProcessScoreModes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHUDMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClInclude>
+    <ClInclude Include="P1HUDMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClInclude>
+    <ClInclude Include="P2HUDMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Glyph.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphFactory.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMode.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\SoundModes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundModeOn.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\SoundModes</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSoundOnce.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\CmdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSoundLoop.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\CmdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSound.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\CmdSounds</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEventsEnum.h">
+      <Filter>Source Files\Game Components\InformationalHeaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundModeMuted.h">
+      <Filter>Source Files\Game Components\Managers\SoundManager\SoundModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionOneCell.h">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionTwoCell.h">
+      <Filter>Source Files\Game Components\Explosions</Filter>
+    </ClInclude>
+    <ClInclude Include="GlyphObjectPool.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\HUD Classes for Glyphs\Glyphs</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionFactory.h">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionOneCellObjectPool.h">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionTwoCellObjectPool.h">
+      <Filter>Source Files\Game Components\Explosions\ExplosionFactories &amp; Object Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="FrozenControllerMode.h">
+      <Filter>Source Files\Game Components\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameChecker.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\StartGameChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameCheckerOn.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\StartGameChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameCheckerOff.h">
+      <Filter>Source Files\Game Components\Managers\GameManager\StartGameChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="DoNothingHUDMode.h">
+      <Filter>Source Files\Game Components\Managers\HUDManager\PlayerHUDMode</Filter>
+    </ClInclude>
+    <ClInclude Include="HighscoreEntry.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadSpawnCheck.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner\HeadSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadSpawnCheck_Active.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner\HeadSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadSpawnCheck_Inactive.h">
+      <Filter>Source Files\Game Components\Critters\Critter Spawners\CentipedeSpawner\HeadSpawnCheckers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBlock.h">
+      <Filter>Source Files\Game Components\Managers\GridManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirection.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirection_Stop.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirectionUpRight.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirectionUpLeft.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirectionDownRight.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="AIMoveDirectionDownLeft.h">
+      <Filter>Source Files\Game Components\Player\PlayerController\AIMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderScoreSprite.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderScoreSpriteEnum.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderScoreSpriteFactory.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderScoreSpriteObjectPool.h">
+      <Filter>Source Files\Game Components\Managers\ScoreManager\SpiderScoreSprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game Components\TEAL\_Version Information.txt">
+      <Filter>Source Files\Game Components\_TEAL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
